@@ -1,3 +1,4 @@
+#	Detects and even number
 def even_numbers(low, high):
     even_nos = []
     for item in range(low, high):

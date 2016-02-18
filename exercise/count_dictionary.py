@@ -4,7 +4,8 @@ my_dict = {
     "Are": ['Aee', 'Ree', 'Eee', 'kkt', 'ggw', 'yye'],
     "You":['Yee', 'Oee', 'Uee']
     }
-    
+
+#   Detects the list with more key 
 def largest_list(my_dict):
     count = 0
     value_key = 0
@@ -14,7 +15,8 @@ def largest_list(my_dict):
             count = list_count
             value_key = key
     return value_key
-    
+
+#   Gives the total number of letters in the dictionary
 def count_dict(my_dict):
     total_count = 0
     for key in my_dict:
